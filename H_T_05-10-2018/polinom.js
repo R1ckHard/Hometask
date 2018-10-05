@@ -7,6 +7,6 @@ for (var i=0;i<n;i++)
 }
 var sum = 0;
 for (var i=0;i<n;i++) {
-    sum=sum+arr[n-i-1]*(x**i);
+    sum=sum+arr[i]*(x**(n-i));
 }
 alert(sum);

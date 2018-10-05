@@ -2,8 +2,6 @@ function pascalTriangle(){
     var arr =[50];
     var i, j;
     var size=prompt('Введите размер',size);
-    //alert('Размер '+size+' штук =)')
-
     for(i = 1; i <= size ; i++)
     {
         arr[i] = 0;
