@@ -1,0 +1,8 @@
+span{
+    background:linear-gradient( to top right ,seagreen,aquamarine);
+    font:30px Monaco;
+    color: #222222 ;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
