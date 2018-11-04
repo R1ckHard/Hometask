@@ -2,7 +2,7 @@ const rows = +prompt('Введите кол-во рядов:');
 const cols = +prompt('Введите кол-во колонок:');
 
 function newtable() {
-    let tbl = '<table><tbody>';
+    let tbl = '<table align="center"><tbody>';
     for (let i = 0; i < rows; ++i) {
         tbl += '<tr>';
         for (let j = 0; j < cols; ++j) {
