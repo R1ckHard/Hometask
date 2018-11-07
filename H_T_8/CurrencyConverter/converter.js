@@ -8,7 +8,7 @@ function convert() {
         rub: 0.015,
         usd: 1,
         eur: 1.13
-    }
+    };
     var convCurr = pickCurrency.value;
     var currConv = currencyConverter.value;
     converted.value = (values[convCurr] * input.value / values[currConv]).toFixed(2);

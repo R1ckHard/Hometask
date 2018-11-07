@@ -1,0 +1,39 @@
+canvas {
+    background: url("images/airhokkeyfield.jpg") no-repeat ;
+    background-size: cover;
+
+}
+body {
+    background: url("images/pink dust.png");
+    background-size: auto;
+}
+div{
+    clear: both;
+    height: auto;
+    margin:  auto;
+    width: 750px;
+
+
+}
+b{
+    font-size: 20px;
+    color: wheat;
+}
+h1{
+    color: wheat;
+}
+table{
+    background-color: brown;
+    border: 2px solid black;
+    box-shadow: 5px 5px 2px;
+    display: inline-block;
+    margin:  auto;
+
+}
+
+p{
+    color: wheat;
+    font-size: 20px;
+
+}
+

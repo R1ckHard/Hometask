@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Paddle Game</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="airHockey.css">
+</head>
+<body>
+<embed src="hockey.mp3" autostart="true" hidden="true" loop="false">
+<div>
+  <canvas id="myCanvas" width="460" height="900"></canvas>
+  <table cellpadding="5" cellspacing="5">
+      <tbody>
+      <tr><td><b>Settings:</b></td></tr>
+      <tr>
+          <td><b>Max score:</b></td>
+          <td><input  onkeypress="return false" size="300" value="3" id="score" type="number"  min="1" max='7'></td>
+      </tr>
+
+      <tr>
+          <td><b>Speed of puck:</b></td>
+          <td><input  onkeypress="return false" size="300" value="2" id="ballspeed" type="number"  min="1" max='5' ></td>
+      </tr>
+      </tbody>
+  </table>
+</div>
+
+
+<script src="airHockey.js">
+</script>
+</body>
+</html>
