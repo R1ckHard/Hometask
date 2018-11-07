@@ -146,7 +146,8 @@ function moveBall() {
     }
 }
 function movePaddle1() {
-    var speed=4;
+    let ballSpeed=document.getElementById('ballspeed').value ;
+    let speed=4+(ballSpeed/2);
     if (rightPressed && stickX1 < canvas.width-stickWidth) {
         stickX1 += speed;
     }
@@ -155,7 +156,8 @@ function movePaddle1() {
     }
 }
 function movePaddle2() {
-    var speed=4;
+    let ballSpeed=document.getElementById('ballspeed').value ;
+    let speed=4+(ballSpeed/2);
     if (DPressed && stickX2 < canvas.width-stickWidth) {
         stickX2 += speed;
     }
