@@ -1,0 +1,49 @@
+body {
+    background:url("img/oriental.png");
+    font:1em 'PT Sans', Tahoma, Arial;
+}
+.nav {
+    list-style:none;
+    margin:30px;
+    padding:0;
+    width:50px;
+}
+.nav li {
+    height:50px;
+    overflow:hidden;
+    width:150px;
+}
+.nav li a {
+    background: #4b89ff;
+    color:#fff;
+    cursor:pointer;
+    display:block;
+    line-height:40px;
+    margin:1px;
+    padding-left:15px;
+    text-decoration:none;
+}
+.nav li a:hover {
+    background:#2fc5ff;
+}
+#container{
+    width: 1500px;
+    height: 90%;
+    position: absolute;
+    top: 30px;
+    left: 10%;
+    margin-left: 30px;
+}
+.form {
+    background: #4b89ff;
+    padding-left: 20px;
+    border: solid black 1px;
+    display: inline-block;
+    padding-right: 20px;
+    margin-left: 30%;
+}
+#search{
+    width: 600px;
+    height: 30px;
+    margin-left: 30%;
+}

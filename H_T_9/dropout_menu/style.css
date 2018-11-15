@@ -1,0 +1,71 @@
+body {
+    background: url("circuit.png");
+    font: 18px 'Verdana';
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center ;
+}
+ul.menu{
+    margin-left: 30% ;
+}
+
+ul:after {
+    display: block;
+    content: ' ';
+    float: none;
+}
+
+ul.menu > li {
+    float: left;
+    position: relative;
+    width: 200px;
+}
+
+ul.menu > li > a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: #4b89ff;
+    color: white;
+}
+ul.menu > li > a:hover {
+    background-color: #133034;
+}
+li{
+    margin-bottom: 1px;
+}
+li:last-child{
+    margin-bottom:0;
+}
+ul.open {
+    display: none;
+    position: absolute;
+    width: 200px;
+    top: 40px;
+    background-color: white;
+    border: 1px solid #422dff;
+}
+
+ul.open > li {
+    display: block;
+}
+ul.visible {
+    display: block;
+}
+ul.open > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #4b89ff;
+    text-decoration: none;
+}
+
+ul.open > li > a:hover {
+    background-color:#133034;
+}
+
