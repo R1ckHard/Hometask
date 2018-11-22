@@ -36,9 +36,13 @@ const Routes = {
             const kickHim = document.getElementById('check3');
             kickHim.addEventListener('click',function () {
                 if(confirm('Катись отсюда!Тебе здесь не рады!')){
-                    window.close();
+                    document.location.href = "http://www.google.com";
                 }
-                else alert('Ну и ладно можешь остаться!')
+                else {
+                    alert('Ну ладно можешь остаться.');
+                    alert('Шутка!');
+                    document.location.href = "http://www.google.com";
+                }
 
             });
 

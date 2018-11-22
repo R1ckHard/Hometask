@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    height:2000px;
+}
+#block{
+    width: 100%;
+    background: #af68f1;
+    height: 100px;
+    margin-top: 400px;
+    position: sticky;
+    top: 0;
+}

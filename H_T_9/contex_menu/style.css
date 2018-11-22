@@ -1,0 +1,32 @@
+#menu{
+    text-decoration: none;
+    list-style-type:none;
+    font-family: Roboto;
+    font-size: large;
+    text-align: center;
+}
+#menu>li{
+     border-bottom: black solid 1px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    padding-right: 40px;
+    padding-left: 40px;
+ }
+#menu>li:hover{
+    background: #ffebc7;
+    cursor: pointer;
+}
+#menu>li:last-child{
+    border-bottom: none;
+}
+#context-menu{
+    background: #af68f1;
+    border: black solid 1px;
+    width: max-content;
+    position: absolute;
+    display: none;
+}
+h3{
+    text-align: center ;
+    font-family: Roboto,Tahoma;
+}
