@@ -55,9 +55,7 @@ saturate.addEventListener('click', function () {
     ctx.filter = 'saturate(50%)';
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
 });
-normal.addEventListener('click', function () {
-    ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
-});
+
 
 
 
