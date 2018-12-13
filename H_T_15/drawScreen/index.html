@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<canvas id="canvas" width="1000" height="600"></canvas>
+
+    <table cellpadding="5" cellspacing="5">
+        <tbody>
+        <tr>
+            <td><b>Толщина: </b></td>
+            <td><input onkeypress="return false"  size="300" value="2" id="lineWidth" type="number"  min="1" max='15'></td>
+        </tr>
+
+        <tr>
+            <td><b>Цвет:</b></td>
+            <td><select name="education" id="selection">
+                <option value="blue">Синий</option>
+                <option value="black" selected>Черный</option>
+                <option value="green">Зеленый</option>
+                <option value="red">Красный</option>
+                <option value="random">Случайный</option>
+            </select></td>
+        </tr>
+
+        </tbody>
+    </table>
+    <button type="button" id="btn">Очистить</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

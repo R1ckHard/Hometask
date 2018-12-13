@@ -1,0 +1,40 @@
+#canvas{
+    border: black solid 1px;
+    box-shadow: black 5px 5px 100px ;
+}
+.container{
+    margin-left: 20%;
+    margin-top: 50px;
+    width: 1000px;
+    height:600px;
+}
+
+table{
+    user-select: none;
+    color: #0b0b0b;
+    font-family: Tahoma, Arial;
+    margin-top: 20px;
+    background-color: #ff739c;
+    border: 1px solid black;
+    display: inline-block;
+}
+#btn{
+    color: #0b0b0b;
+    background: #ff739c;
+    border: black solid 1px;
+    font-family: Tahoma ,Arial;
+    font-size: 17px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    float: right;
+}
+#btn:hover{
+    background: crimson ;
+    box-shadow: 0 0 0 2px crimson inset, 0 0 0 4px white inset;
+}
+#btn:active{
+    background: crimson ;
+    box-shadow: black inset 3px 3px 3px 1px,inset -3px -3px 3px 1px black;
+}
